@@ -1,0 +1,26 @@
+// Colors
+$main-color      : #217DD1;
+$text-color      : #222222;
+$opp-main-color  : #dddddd;
+
+$body-bg         : #dddddd;
+$grey-border     : #aaaaaa;
+$box-shadow-color: #bbbbbb;
+
+
+@import "compass/css3/font-face";
+@include font-face("RobotoRegular",
+                   font-files("roboto/Roboto-Regular.woff", woff,
+                              "roboto/Roboto-Regular#RobotoRegular", svg,
+                              "roboto/Roboto-Regular.ttf", truetype),
+                   "roboto/Roboto-Regular.eot");
+@include font-face("RobotoLight",
+                   font-files("roboto/Roboto-Light.woff", woff,
+                              "roboto/Roboto-Light#RobotoLight", svg,
+                              "roboto/Roboto-Light.ttf", truetype),
+                   "roboto/Roboto-Light.eot");
+// Font Related
+$font-body       : RobotoRegular;
+$font-header     : RobotoLight;
+$base-font-size  : 16px;
+$base-line-height: 1.3;
